@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orion Hocking | Portfolio</title>
+    <meta name="description"
+        content="Digital Marketing Coordinator & UX Architect. Fusing analytical QA rigour with award-winning digital marketing strategies.">
+    <!-- Google Fonts: Inter for UI/Body, Outfit for Display/Headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Custom Interactive Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Aurora Background (OLED baseline + Blue/Cyan Gradients) -->
+    <div class="aurora-bg">
+        <div class="aurora-blob blob-1"></div>
+        <div class="aurora-blob blob-2"></div>
+        <div class="aurora-blob blob-3"></div>
+    </div>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section scroll-reveal">
+            <div class="hero-content">
+                <h1 class="hero-title">Orion<br>Hocking</h1>
+                <h2 class="hero-subtitle">Digital Marketing Coordinator & UX Architect</h2>
+                <p class="hero-desc">Building frictionless, high-converting digital experiences. Bridging the gap
+                    between analytical QA rigour and cutting-edge creative strategy.</p>
+                <div class="hero-actions">
+                    <a href="#portfolio" class="btn btn-primary interactive-element">View Work</a>
+                    <a href="#about" class="btn btn-secondary interactive-element">About Me</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <!-- Premium Glassmorphism Headshot Card -->
+                <div class="glass-card headshot-card interactive-element">
+                    <img src="C:\Users\orion_zpywb9l\Downloads\Larry 3-9\2nd try Portfolio\Porfolio pic.jpeg"
+                        alt="Orion Hocking Profile" class="profile-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About & Experience Section -->
+        <section id="about" class="about-section scroll-reveal">
+            <div class="section-header">
+                <h2>Expertise</h2>
+                <div class="heading-line"></div>
+            </div>
+            <div class="glass-card full-width experience-card interactive-element">
+                <div class="experience-grid">
+                    <div class="exp-col">
+                        <h3>Digital Marketing</h3>
+                        <p>Driving campaigns from ideation to conversion. Specialized in content design, SEO, and
+                            analytics to optimize user journeys.</p>
+                    </div>
+                    <div class="exp-col">
+                        <h3>Quality Assurance</h3>
+                        <p>Ensuring flawless execution. Background in rigorous QA methodologies ensures every digital
+                            product is accessible, responsive, and robust.</p>
+                    </div>
+                    <div class="exp-col">
+                        <h3>UX/UI Design</h3>
+                        <p>Designing modern "UI/UX Pro Max" interfaces. Leveraging zero-framework vanilla ecosystems for
+                            premium performance and aesthetics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Beyond the Screen Section -->
+        <section id="beyond-screen" class="beyond-screen-section scroll-reveal">
+            <div class="section-header">
+                <h2>Beyond the Screen</h2>
+                <div class="heading-line"></div>
+            </div>
+            <div class="video-scroll-container">
+                <div class="sticky-video-wrapper">
+                    <div class="beyond-screen-text">
+                        <p>I enjoy skiing when I'm not in front of a keyboard. I spend my winters mapping out creative
+                            lines, pushing my limits with freestyle jumps, and constantly looking for a new perspective
+                            on the mountain. It’s how I reset, stay focused, and keep my ideas fresh.</p>
+                    </div>
+                    <div class="video-group">
+                        <div class="video-box" id="box1">
+                            <video id="scrollVideo1" class="scroll-video" src="Timeline 1.mp4" muted
+                                playsinline></video>
+                        </div>
+                        <div class="video-box" id="box2">
+                            <video id="scrollVideo2" class="scroll-video" src="Timeline 2.mp4" muted
+                                playsinline></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Project Assistant UI (Agent Chat) -->
+        <section id="assistant" class="assistant-section scroll-reveal">
+            <div class="section-header">
+                <h2>Interactive Assistant</h2>
+                <div class="heading-line"></div>
+            </div>
+            <div class="glass-card chat-container interactive-element">
+                <div class="chat-header">
+                    <div class="chat-header-info">
+                        <div class="status-indicator"></div>
+                        <span class="chat-title">Orion AI Agent</span>
+                    </div>
+                </div>
+
+                <div class="chat-history" id="chatHistory">
+                    <div class="chat-message bot-message">
+                        <div class="message-avatar">AI</div>
+                        <div class="message-content">
+                            Hello! I'm Orion's digital project assistant. Would you like to hear about his recent
+                            successes in multi-channel marketing or view his technical showcase?
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chat-input-area">
+                    <div class="input-wrapper">
+                        <input type="text" id="chatInput" placeholder="Ask about strategy, tech stack, or QA..."
+                            autocomplete="off" />
+                    </div>
+                    <button id="sendBtn" class="send-btn interactive-element" aria-label="Send message">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Multimedia Portfolio Bento Box -->
+        <section id="portfolio" class="portfolio-section scroll-reveal">
+            <div class="section-header">
+                <h2>Selected Works</h2>
+                <div class="heading-line"></div>
+            </div>
+
+            <div class="bento-grid">
+                <!-- Media Placeholder 1 -->
+                <div class="bento-item glass-card bento-small interactive-element bento-image1">
+                    <div class="bento-content centered">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)"
+                            stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        <span class="bento-label">Visual Media</span>
+                    </div>
+                </div>
+
+                <!-- Video Placeholder -->
+                <div class="bento-item glass-card bento-tall interactive-element bento-video">
+                    <div class="bento-content centered">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--accent)"
+                            stroke-width="1.5">
+                            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                        </svg>
+                        <span class="bento-label">Showcase Reel</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Clean Footer -->
+    <footer class="glass-card footer scroll-reveal">
+        <div class="footer-content">
+            <h2 class="footer-logo">Orion Hocking</h2>
+            <div class="footer-links">
+                <a href="mailto:contact@example.com" class="interactive-element">Email</a>
+                <a href="https://www.linkedin.com/in/orion-hocking/" target="_blank"
+                    class="interactive-element">LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Orion Hocking.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
